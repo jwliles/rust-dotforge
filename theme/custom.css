@@ -1,0 +1,51 @@
+/* Custom CSS for Forge documentation */
+
+/* Main theme customization */
+:root {
+    --sidebar-width: 300px;
+    --page-padding: 15px;
+    --content-max-width: 850px;
+}
+
+/* Typography improvements */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+code {
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* Improve styling for code blocks */
+pre {
+    padding: 1em;
+    border-radius: 5px;
+}
+
+/* Custom styling for admonitions */
+.warning {
+    border-left: 4px solid #ffcc00;
+    background-color: #ffffee;
+    padding: 0.5em 1em;
+}
+
+/* Improve styling for tables */
+table {
+    width: 100%;
+    margin: 1em 0;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f5f5f5;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
